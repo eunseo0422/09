@@ -24,7 +24,7 @@ void printMatrix(int A[][COLS])
 	{
 		for (j=0; j<3; j++)
 		{
-			printf("%3d", A[i][j]);
+			printf("%d ", A[i][j]);
 		}
 		printf("\n");
 	}
